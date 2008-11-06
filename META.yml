@@ -1,0 +1,26 @@
+---
+abstract: 'Configure inlined constants when loading module'
+author:
+  - 'Alex Efros <powerman-asdf@ya.ru>'
+build_requires:
+  Perl6::Export::Attrs: 0
+  Test::Exception: 0
+  Test::More: 0
+  Time::HiRes: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WITH
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Sub::Uplevel: 0
+  version: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.000002
